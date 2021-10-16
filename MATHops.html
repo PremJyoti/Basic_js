@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH OPERATIONS</title>
+</head>
+<script>
+    function add()
+    {
+        var a,b,ans;
+        a=f.a1.value;
+        b=f.b1.value;
+        ans=(a+b);
+       document.write("ANS "+ans);
+    }
+    function sub()
+    {
+        var a,b,ans;
+        a=f.a1.value;
+        b=f.b1.value;
+        ans=a-b;
+       document.write("ANS "+ans);
+    }
+    function multi()
+    {
+        var a,b,ans;
+        a=f.a1.value;
+        b=f.b1.value;
+        ans=a*b;
+       document.write("ANS "+ans);
+    }
+    function divi()
+    {
+        var a,b,ans;
+        a=f.a1.value;
+        b=f.b1.value;
+        ans=a/b;
+       document.write("ANS "+ans);
+    }
+</script>
+<body>
+    <label>MATH OPERATIONS</label>
+    <form name="f">
+        <input type="text" name="a1">
+        <br>
+        <input type="text" name="b1">
+        <br>
+        <input type="submit" value="ADD" onclick="add()">
+        <br>
+        <input type="submit" value="SUB" onclick="sub()">
+        <br>
+        <input type="submit" value="MULTI" onclick="multi()">
+        <br>
+        <input type="submit" value="DIVI" onclick="divi()">
+        <br>
+    </form>
+    
+</body>
+</html>
